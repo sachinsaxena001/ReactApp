@@ -20,7 +20,7 @@ export default function App() {
                     <Route path='/create' 
                         element={<Create />} />
                     <Route path='/edit' 
-                        element={<Edit onBla = {testobj} />} />
+                        element={<Edit />} />
                 </Routes>
             </Router>
    
