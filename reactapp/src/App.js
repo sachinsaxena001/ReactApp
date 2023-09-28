@@ -8,7 +8,8 @@ import Edit from './edit';
 import Home from './home';
 
 export default function App() {
-  return (
+ 
+    return (
     <div className='App'>
    
  
@@ -19,7 +20,7 @@ export default function App() {
                     <Route path='/create' 
                         element={<Create />} />
                     <Route path='/edit' 
-                        element={<Edit />} />
+                        element={<Edit onBla = {testobj} />} />
                 </Routes>
             </Router>
    
